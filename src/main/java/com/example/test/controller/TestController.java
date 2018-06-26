@@ -11,7 +11,6 @@ public class TestController {
 
     @RequestMapping("/test")
     public String test() {
-        String a = "ss";
         return "hello Spring MVC";
     }
 
